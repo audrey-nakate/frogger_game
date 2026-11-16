@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://d0afktg7f5frk"]
+
+[ext_resource type="Script" uid="uid://h7gftbp1m8s3" path="res://scenes/environment.gd" id="1_jtak5"]
+[ext_resource type="Texture2D" uid="uid://d1h0ksxlju0ou" path="res://graphics/objects/house1.png" id="1_yw8f4"]
+[ext_resource type="Texture2D" uid="uid://cxutqp0hti8vw" path="res://graphics/objects/bench.png" id="2_jtak5"]
+[ext_resource type="Texture2D" uid="uid://d0so81ys3820n" path="res://graphics/objects/tree1.png" id="3_3drpd"]
+[ext_resource type="Texture2D" uid="uid://y3ndpd5bhsi3" path="res://graphics/objects/tree2.png" id="4_a3oai"]
+[ext_resource type="Texture2D" uid="uid://73gfa8tjrcik" path="res://graphics/objects/house3.png" id="5_ysate"]
+[ext_resource type="Texture2D" uid="uid://cfe22lwgaf1k2" path="res://graphics/objects/traffic.png" id="6_7yrbd"]
+
+[node name="environment" type="Node2D" unique_id=310825431]
+scale = Vector2(6, 6)
+script = ExtResource("1_jtak5")
+
+[node name="house" type="Sprite2D" parent="." unique_id=1825384185]
+position = Vector2(672, 216)
+texture = ExtResource("1_yw8f4")
+
+[node name="bench" type="Sprite2D" parent="." unique_id=378015363]
+position = Vector2(509, 234)
+texture = ExtResource("2_jtak5")
+
+[node name="tree1" type="Sprite2D" parent="." unique_id=1446752844]
+position = Vector2(609, 107)
+texture = ExtResource("3_3drpd")
+
+[node name="tree2" type="Sprite2D" parent="." unique_id=1784485417]
+position = Vector2(531, 152)
+texture = ExtResource("4_a3oai")
+
+[node name="house1" type="Sprite2D" parent="." unique_id=1812331861]
+position = Vector2(386, 316)
+texture = ExtResource("5_ysate")
+
+[node name="traffic" type="Sprite2D" parent="." unique_id=1194134863]
+position = Vector2(635, 401)
+texture = ExtResource("6_7yrbd")
